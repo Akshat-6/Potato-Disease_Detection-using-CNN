@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potato Disease Classification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="top-left-container">
+        <a href="https://cropaia.com/blog/guide-to-potato-cultivation/" target="_blank">About Potato Farming</a>
+        <div id="suggestion-box">
+            <p id="suggestion-text"></p>
+            <a id="suggestion-link" href="#" target="_blank">Know More</a>
+        </div>
+    </div>
+    <div class="container">
+        <h1 class="title">Potato Disease Classification</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" id="fileInput" accept="image/*" required>
+            <button type="submit">Classify Image</button>
+        </form>
+        <div id="result">
+            <img id="uploadedImage" src="" alt="Uploaded Image">
+            <p id="prediction"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

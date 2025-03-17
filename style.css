@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/6540720.jpg'); /* Replace with your desired 4K image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.top-left-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.top-left-container a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#suggestion-box {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#suggestion-text {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+#suggestion-link {
+    display: none; /* Initially hidden */
+    margin-top: 5px;
+    text-decoration: none;
+    color: blue;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 500px; /* Adjust width as needed */
+}
+
+.title {
+    font-size: 3rem;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+#fileInput {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#uploadedImage {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#prediction {
+    font-size: 1.2rem;
+    color: #333;
+}
